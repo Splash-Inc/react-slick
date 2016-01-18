@@ -24,8 +24,8 @@ export var getTrackCSS = function(spec) {
   var style = {
     opacity: 1,
     width: trackWidth,
-    WebkitTransform: 'translate3d(' + spec.left + 'px, 0px, 0px)',
-    transform: 'translate3d(' + spec.left + 'px, 0px, 0px)',
+    WebkitTransform: 'translateX(' + spec.left + 'px)',
+    transform: 'translateX(' + spec.left + 'px)',
     transition: '',
     WebkitTransition: '',
     msTransform: 'translateX(' + spec.left + 'px)'
